@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.image.ImageView?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="769.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" />
+
+<Pane fx:id="rootPane" prefWidth="800" prefHeight="600" xmlns:fx="http://javafx.com/fxml/1">
+<ImageView fx:id="backgroundImage" fitWidth="${rootPane.width}" fitHeight="${rootPane.height}" preserveRatio="false" />
+<!-- Add your other UI elements here -->
+</Pane>
+
